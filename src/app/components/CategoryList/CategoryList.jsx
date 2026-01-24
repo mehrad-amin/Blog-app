@@ -6,11 +6,11 @@ const CategoryList = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Popular Categories</h1>
-      <div calssName={styles.categories}>
+      <div className={styles.categories}>
         <div className={styles.category}>
           <Link
             href="/blog?cat=style"
-            className={`${styles.category} ${styles.style}`}
+            className={`${styles.categoryItem} ${styles.style}`}
           >
             <Image
               src="/style.png"
@@ -23,7 +23,10 @@ const CategoryList = () => {
           </Link>
         </div>
         <div className={styles.category}>
-          <Link href="/blog" className={`${styles.category} ${styles.fashion}`}>
+          <Link
+            href="/blog"
+            className={`${styles.categoryItem} ${styles.fashion}`}
+          >
             <Image
               src="/fashion.png"
               alt="fashion category"
@@ -35,7 +38,10 @@ const CategoryList = () => {
           </Link>
         </div>
         <div className={styles.category}>
-          <Link href="/blog" className={`${styles.category} ${styles.food}`}>
+          <Link
+            href="/blog"
+            className={`${styles.categoryItem} ${styles.food}`}
+          >
             <Image
               src="/food.png"
               alt="food category"
@@ -47,7 +53,10 @@ const CategoryList = () => {
           </Link>
         </div>
         <div className={styles.category}>
-          <Link href="/blog" className={`${styles.category} ${styles.travel}`}>
+          <Link
+            href="/blog"
+            className={`${styles.categoryItem} ${styles.travel}`}
+          >
             <Image
               src="/travel.png"
               alt="travel category"
@@ -59,7 +68,10 @@ const CategoryList = () => {
           </Link>
         </div>
         <div className={styles.category}>
-          <Link href="/blog" className={`${styles.category} ${styles.culture}`}>
+          <Link
+            href="/blog"
+            className={`${styles.categoryItem} ${styles.culture}`}
+          >
             <Image
               src="/culture.png"
               alt="culture category"
@@ -71,7 +83,10 @@ const CategoryList = () => {
           </Link>
         </div>
         <div className={styles.category}>
-          <Link href="/blog" className={`${styles.category} ${styles.coding}`}>
+          <Link
+            href="/blog"
+            className={`${styles.categoryItem} ${styles.coding}`}
+          >
             <Image
               src="/coding.png"
               alt="culture category"
