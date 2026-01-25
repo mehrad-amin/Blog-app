@@ -43,3 +43,49 @@
   cursor: pointer;
   font-weight: 500;
 }
+<<<<<<< Updated upstream
+=======
+.bold {
+  font-weight: 600;
+  font-size: 90px;
+}
+
+@media screen and (max-width: 1280px) {
+  .title {
+    font-size: 72px;
+  }
+  .bold {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .title {
+    font-size: 62px;
+  }
+  .bold {
+    font-size: 72px;
+  }
+  .imgContainer {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 48px;
+  }
+  .bold {
+    font-size: 64px;
+  }
+  .imgContainer {
+    display: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .title {
+    font-size: 36px;
+  }
+  .bold {
+    font-size: 48px;
+  }
+}
+>>>>>>> Stashed changes
