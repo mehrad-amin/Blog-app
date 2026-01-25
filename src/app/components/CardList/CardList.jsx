@@ -1,6 +1,6 @@
 import styles from "@/app/components/CardList/CardList.module.css";
 const CardList = () => {
-  return <div>CardList</div>;
+  return <div className={styles.container}>CardList</div>;
 };
 
 export default CardList;
