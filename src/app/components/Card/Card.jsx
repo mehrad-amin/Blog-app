@@ -23,7 +23,9 @@ const Card = () => {
           reiciendis deleniti aliquam, id, earum maiores possimus recusandae
           unde ut dolorum. Error, cupiditate provident. Numquam.
         </p>
-        <Link href="/">Read More</Link>
+        <Link href="/" className={styles.link}>
+          Read More
+        </Link>
       </div>
     </div>
   );
