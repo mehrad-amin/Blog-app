@@ -99,3 +99,8 @@
 .categoryItem.coding {
   background-color: #5e4fff31;
 }
+@media screen and (max-width: 1024px) {
+  .container {
+    display: none;
+  }
+}
