@@ -1,4 +1,5 @@
-import styles from "@/app/components/Comment/Comments.module.css";
+import styles from "@/app/components/Comment/comment.module.css";
+import Image from "next/image";
 import Link from "next/link";
 
 const Comments = () => {
@@ -17,6 +18,24 @@ const Comments = () => {
       ) : (
         <Link href="/login">Login to post a comment</Link>
       )}
+      <div className={styles.commentsList}>
+        <div className={styles.comment}>
+          <div className={styles.user}>
+            <Image
+              src="/p1.jpeg"
+              alt="user image"
+              width={50}
+              height={50}
+              className={styles.userImage}
+            />
+            <div className={styles.userInfo}>
+              <span className={styles.commentAuthor}>Mehrad</span>
+              <span className={styles.commentDate}>1.1.2026</span>
+            </div>
+          </div>
+          <p className={styles.commentText}>This is a sample comment text.</p>
+        </div>
+      </div>
     </div>
   );
 };
