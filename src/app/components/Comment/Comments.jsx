@@ -35,6 +35,54 @@ const Comments = () => {
           </div>
           <p className={styles.commentText}>This is a sample comment text.</p>
         </div>
+        <div className={styles.comment}>
+          <div className={styles.user}>
+            <Image
+              src="/p1.jpeg"
+              alt="user image"
+              width={50}
+              height={50}
+              className={styles.userImage}
+            />
+            <div className={styles.userInfo}>
+              <span className={styles.commentAuthor}>Mehrad</span>
+              <span className={styles.commentDate}>1.1.2026</span>
+            </div>
+          </div>
+          <p className={styles.commentText}>This is a sample comment text.</p>
+        </div>
+        <div className={styles.comment}>
+          <div className={styles.user}>
+            <Image
+              src="/p1.jpeg"
+              alt="user image"
+              width={50}
+              height={50}
+              className={styles.userImage}
+            />
+            <div className={styles.userInfo}>
+              <span className={styles.commentAuthor}>Mehrad</span>
+              <span className={styles.commentDate}>1.1.2026</span>
+            </div>
+          </div>
+          <p className={styles.commentText}>This is a sample comment text.</p>
+        </div>
+        <div className={styles.comment}>
+          <div className={styles.user}>
+            <Image
+              src="/p1.jpeg"
+              alt="user image"
+              width={50}
+              height={50}
+              className={styles.userImage}
+            />
+            <div className={styles.userInfo}>
+              <span className={styles.commentAuthor}>Mehrad</span>
+              <span className={styles.commentDate}>1.1.2026</span>
+            </div>
+          </div>
+          <p className={styles.commentText}>This is a sample comment text.</p>
+        </div>
       </div>
     </div>
   );
