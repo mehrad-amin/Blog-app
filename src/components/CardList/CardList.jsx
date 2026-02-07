@@ -1,7 +1,7 @@
-import styles from "@/app/components/CardList/CardList.module.css";
-import Image from "next/image";
-import Card from "@/app/components/Card/Card";
-import Pagination from "../Pagination/Pagination";
+import styles from "@/components/CardList/CardList.module.css";
+
+import Card from "@/components/Card/Card";
+import Pagination from "@/components/Pagination/Pagination";
 const CardList = () => {
   return (
     <div className={styles.container}>

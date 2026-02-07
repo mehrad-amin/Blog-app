@@ -1,7 +1,7 @@
 import styles from "@/app/[slug]/singlePage.module.css";
-import Menu from "../components/Menu/Menu";
+import Menu from "@/components/Menu/Menu";
 import Image from "next/image";
-import Comments from "../components/Comment/Comments";
+import Comments from "@/components/Comment/Comments";
 
 const SinglePage = () => {
   return (

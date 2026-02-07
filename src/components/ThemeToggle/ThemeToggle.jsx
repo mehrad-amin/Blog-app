@@ -1,6 +1,6 @@
 "use client";
-import styles from "@/app/components/ThemeToggle/ThemeToggle.module.css";
-import { ThemeContext } from "@/app/context/ThemeContext";
+import styles from "@/components/ThemeToggle/ThemeToggle.module.css";
+import { ThemeContext } from "@/context/ThemeContext";
 import Image from "next/image";
 import { useContext } from "react";
 

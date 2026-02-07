@@ -1,8 +1,8 @@
-import styles from "@/app/components/Navbar/Navbar.module.css";
+import styles from "@/components/Navbar/Navbar.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import AuthLink from "@/app/components/AuthLink/AuthLink";
-import ThemeToggle from "@/app/components/ThemeToggle/ThemeToggle";
+import AuthLink from "@/components/AuthLink/AuthLink";
+import ThemeToggle from "@/components/ThemeToggle/ThemeToggle";
 
 const Navbar = () => {
   return (

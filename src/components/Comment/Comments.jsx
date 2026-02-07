@@ -1,4 +1,4 @@
-import styles from "@/app/components/Comment/comment.module.css";
+import styles from "@/components/Comment/comment.module.css";
 import Image from "next/image";
 import Link from "next/link";
 

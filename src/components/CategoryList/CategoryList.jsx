@@ -1,4 +1,4 @@
-import styles from "@/app/components/CategoryList/CategoryList.module.css";
+import styles from "@/components/CategoryList/CategoryList.module.css";
 import Image from "next/image";
 import Link from "next/link";
 

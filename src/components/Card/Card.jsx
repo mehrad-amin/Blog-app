@@ -1,4 +1,4 @@
-import styles from "@/app/components/Card/Card.module.css";
+import styles from "@/components/Card/Card.module.css";
 import Image from "next/image";
 import Link from "next/link";
 

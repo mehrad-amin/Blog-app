@@ -1,5 +1,5 @@
 "use client";
-import styles from "@/app/components/AuthLink/AuthLink.module.css";
+import styles from "@/components/AuthLink/AuthLink.module.css";
 import Link from "next/link";
 import { useState } from "react";
 
