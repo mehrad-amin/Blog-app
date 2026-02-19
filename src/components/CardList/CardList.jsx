@@ -1,5 +1,4 @@
 import styles from "@/components/CardList/CardList.module.css";
-
 import Card from "@/components/Card/Card";
 import Pagination from "@/components/Pagination/Pagination";
 const CardList = () => {
