@@ -1,14 +1,19 @@
 "use client";
 import styles from "@/components/AuthLink/AuthLink.module.css";
+import { useSession } from "next-auth/react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 const AuthLink = () => {
+  const { status } = useSession();
+  const router = useRouter();
+
   const [open, setOpen] = useState(false);
-  const status = "Not Authenticated";
+
   return (
     <>
-      {status === "Not Authenticated" ? (
+      {status === "unauthenticated" ? (
         <Link href="/login" className={styles.link}>
           Login
         </Link>
@@ -29,7 +34,7 @@ const AuthLink = () => {
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
         <Link href="/contact">Contact</Link>
-        {status === "Not Authenticated" ? (
+        {status === "unauthenticated" ? (
           <Link href="/login">Login</Link>
         ) : (
           <>
