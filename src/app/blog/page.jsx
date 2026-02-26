@@ -1,14 +1,18 @@
 import React from "react";
 import styles from "@/app/blog/blogPage.module.css";
-import CardList from "../components/CardList/CardList";
-import Menu from "../components/Menu/Menu";
+import Menu from "@/components/Menu/Menu";
+import CardList from "@/components/CardList/CardList";
 
-const BlogPage = () => {
+const BlogPage = async ({ searchParams }) => {
+  const params = await searchParams;
+  const page = parseInt(params.page) || 1;
+  const { cat } = params;
+
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Style Blog</h1>
+      <h1 className={styles.title}>{cat} Blog</h1>
       <div className={styles.content}>
-        <CardList />
+        <CardList page={page} cat={cat} />
         <Menu />
       </div>
     </div>

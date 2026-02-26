@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* سایر تنظیمات شما در اینجا */
+  images: {
+    domains: ["lh3.googleusercontent.com"],
+  },
   experimental: {
     reactCompiler: true,
   },
